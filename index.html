@@ -1,0 +1,130 @@
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+
+<h2>Group Member Information</h2>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="naz.png" alt="Nazrizal" style="width:100%">
+      <div class="container">
+        <h2>Nazrizal</h2>
+        <p class="title">Student</p>
+        <p>naz@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="alif.png" alt="Alif Danial" style="width:100%">
+      <div class="container">
+        <h2>alif</h2>
+        <p class="title">student</p>
+        <p>alif@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="hakim.png" alt="Hakim" style="width:100%">
+      <div class="container">
+        <h2>Hakim</h2>
+        <p class="title">student</p>
+        <p>hakim@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="column">
+    <div class="card">
+      <img src="nabil.png" alt="Nabil" style="width:100%">
+      <div class="container">
+        <h2>Nabil</h2>
+        <p class="title">student</p>
+        <p>nabil@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+</div>  <div class="column">
+    <div class="card">
+      <img src="arif.png" alt="Arif" style="width:100%">
+      <div class="container">
+        <h2>Arif</h2>
+        <p class="title">Student</p>
+        <p>arif@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
